@@ -1,4 +1,4 @@
-"# basic-magic"  Installation $ composer intall
+"# basic-magic"  Installation $ composer install
 
 <h3>Parte 1.</h3>
 
