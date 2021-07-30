@@ -1,0 +1,22 @@
+{
+    "name":"ramirophp/basic-magic",
+    "description": "etiquetas html para las vistas",
+    "type":"library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ramirophp",
+            "email": "ramiro_php@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Rmo\\":"src/",
+            "Rmo\\interface\\":"src/interfaces/"
+        },
+        "files": [
+            "src/files/helpers_etiqueta.php"
+        ]
+    }
+}
