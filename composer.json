@@ -9,7 +9,7 @@
             "email": "ramiro_php@protonmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha_v1",
     "autoload": {
         "psr-4": {
             "Rmo\\":"src/",
