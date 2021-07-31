@@ -23,3 +23,27 @@
     <li><i>html5 (Rmo\Etiqueta $instance, string $doc);</i></li>
     <li><i>prtTag (Rmo\Etiqueta $instance);</i></li>
 </ol>
+
+<hr>
+
+<h3>Parte 2.</h3>
+
+<h2>_Atributos & Atributos</h2>
+<h3><em>Interface & Class</em></h3>
+
+<h2>Methods</h2>
+
+<ol>
+    <li>setAtributos (array $atributos)</li>
+    <li>getAtributos () : string</li>
+    <li>printAtributos()</li>
+    <li>__construct (array $atributos = [])</li>
+</ol>
+
+<h2>Tools</h2>
+
+<ol>
+    <li><i>setAttrs (Rmo\Atributos $instance, array $attrs);</i></li>
+    <li><i>getAttrs (Rmo\Atributos $instance);</i></li>
+    <li><i>prtAttrs (Rmo\Atributos $instance);</i></li>
+</ol>
