@@ -2,7 +2,7 @@
 
 namespace Rmo\interface;
 
-interface _Etiqueta {
+interface _Atributos {
     public function setAtributos (array $atributos);
     public function getAtributos () : string;
     public function printAtributos();
