@@ -46,7 +46,7 @@ class Atributos implements _Atributos {
     }
 
     public function __construct (array $atributos = []) {
-        $this->atributos = $atributos;
+        $this->setAtributos($atributos);
     }
 
 }
