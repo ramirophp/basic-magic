@@ -47,3 +47,25 @@
     <li><i>getAttrs (Rmo\Atributos $instance);</i></li>
     <li><i>prtAttrs (Rmo\Atributos $instance);</i></li>
 </ol>
+
+<hr>
+
+<h3>Parte 3.</h3>
+
+<h2>_Magic & Magic</h2>
+<h3><em>Interface & Class</em></h3>
+
+<h2>Methods</h2>
+
+<ol>
+    <li>setCaracter (string $char)</li>
+    <li>getCaracter ()</li>
+    <li>__construct (string $char = '/')</li>
+</ol>
+
+<h2>Tools</h2>
+
+<ol>
+    <li><i>setChar (Rmo\Magic $instance, string $char);</i></li>
+    <li><i>getChar (Rmo\Magic $instance);</i></li>
+</ol>
