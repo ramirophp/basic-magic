@@ -69,3 +69,30 @@
     <li><i>setChar (Rmo\Magic $instance, string $char);</i></li>
     <li><i>getChar (Rmo\Magic $instance);</i></li>
 </ol>
+
+<hr>
+
+<h3>Parte 4.</h3>
+
+<h2>_Espacios & Espacios</h2>
+<h3><em>Interface & Class</em></h3>
+
+<h2>Methods</h2>
+
+<ol>
+    <li>setCantidad (int $cantidad)</li>
+    <li>getCantidad ()</li>
+    <li>getEspacios ()</li>
+    <li>multiplicaEspacios (int $por)</li>
+    <li>__construct (int $espacios = 4)</li>
+</ol>
+
+<h2>Tools</h2>
+
+<ol>
+    <li><i>setCant (Rmo\Espacios $instance, int $cantidad);</i></li>
+    <li><i>getCant (Rmo\Espacios $instance);</i></li>
+    <li><i>getSpaces (Rmo\Espacios $instance);</i></li>
+    <li><i>mltSpaces (Rmo\Espacios $instance, int $by);</i></li>
+    <li><i>txtBtwSps (Rmo\Espacios $instance, string $text);</i></li>
+</ol>

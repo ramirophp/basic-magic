@@ -23,3 +23,10 @@ if (!function_exists('mltSpaces')) {
         return $instance->multiplicaEspacios($by);
     }
 }
+
+if (!function_exists('txtBtwSps')) {
+    function txtBtwSps (Rmo\Espacios $instance, string $text) {
+        $instance->setCantidad(1);
+        return $instance->getEspacios() . htmlspecialchars($text) . $instance->getEspacios();
+    }
+}
