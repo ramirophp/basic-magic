@@ -19,7 +19,7 @@ if (!function_exists('getSpaces')) {
 }
 
 if (!function_exists('mltSpaces')) {
-    function getSpaces (Rmo\Espacios $instance, int $by) {
+    function mltSpaces (Rmo\Espacios $instance, int $by) {
         return $instance->multiplicaEspacios($by);
     }
 }
