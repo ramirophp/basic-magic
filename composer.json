@@ -17,7 +17,7 @@
         },
         "files": [
             "src/files/helpers_etiqueta.php","src/files/helpers_atributos.php",
-            "src/files/helpers_magic.php"
+            "src/files/helpers_magic.php","src/files/helpers_espacios.php"
         ]
     }
 }
