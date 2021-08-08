@@ -2,12 +2,9 @@
 
 namespace Rmo;
 use Rmo\interface\_Piezas;
-use Rmo\Magic;
-use Rmo\Etiqueta;
-use Rmo\Espacios;
 
 class Piezas implements _Piezas {
-    public static function parte_1 (Rmo\Magic $_char, Rmo\Magic $_char_, Rmo\Etiqueta $etiquetas) {
+    public static function parte_1 (Magic $_char, Magic $_char_, Etiqueta $etiquetas) {
         setChar($_char,'<');
         setChar($_char_,'>');
         setTag($etiquetas,getChar($_char) . 'section' . getChar($_char_));
