@@ -3,7 +3,7 @@
 namespace Rmo\interface;
 
 interface _Piezas {
-    public static function parte_1 (Magic $_char, Magic $_char_, Etiqueta $etiquetas);
+    public static function parte_1 (Rmo\Magic $_char, Rmo\Magic $_char_, Rmo\Etiqueta $etiquetas);
     public static function parte_2 (Rmo\Magic $_char, Rmo\Magic $_char_, Rmo\Etiqueta $etiquetas, Rmo\Espacios $espacios);
     public static function parte_3 (Rmo\Magic $_char, Rmo\Magic $_char_, Rmo\Etiqueta $etiquetas, Rmo\Espacios $espacios);
     public static function parte_4 (Rmo\Magic $_char, Rmo\Magic $_char_, Rmo\Etiqueta $etiquetas, Rmo\Espacios $espacios);
