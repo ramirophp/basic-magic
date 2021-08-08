@@ -4,6 +4,7 @@ namespace Rmo;
 use Rmo\interface\_Piezas;
 
 class Piezas implements _Piezas {
+
     public static function parte_1 (Rmo\Magic $_char, Rmo\Magic $_char_, Rmo\Etiqueta $etiquetas) {
         setChar($_char,'<');
         setChar($_char_,'>');
@@ -146,4 +147,5 @@ class Piezas implements _Piezas {
         setTag($etiquetas,getChar($_char) . getChar($char) . 'section' . getChar($_char_));
         prtTag($etiquetas);
     }
+    
 }
