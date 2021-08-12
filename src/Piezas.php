@@ -30,7 +30,7 @@ class Piezas implements _Piezas {
         prtTag($etiquetas);
     } 
 
-    public static function parte_5 (\Rmo\Magic $_char, \Rmo\Magic $_char_, \Rmo\Magic $char, \Rmo\Etiqueta $etiquetas, \Rmo\Espacios $_espacios) {
+    public static function parte_5 (\Rmo\Magic $_char, \Rmo\Magic $_char_, \Rmo\Magic $char, \Rmo\Etiqueta $etiquetas, \Rmo\Espacios $espacios, \Rmo\Espacios $_espacios) {
         echo mltSpaces($espacios,4);  
         setTag($etiquetas,getChar($_char) . 'h1' . getChar($_char_));
         prtTag($etiquetas);
