@@ -25,8 +25,8 @@ if(!function_exists('parte_4')) {
 }
 
 if(!function_exists('parte_5')) {
-    function parte_5 (\Rmo\Magic $_char, \Rmo\Magic $_char_, \Rmo\Magic $char, \Rmo\Etiqueta $etiquetas, \Rmo\Espacios $_espacios) {
-        Rmo\Piezas::parte_5($_char, $_char_, $char, $etiquetas, $_espacios);
+    function parte_5 (\Rmo\Magic $_char, \Rmo\Magic $_char_, \Rmo\Magic $char, \Rmo\Etiqueta $etiquetas, \Rmo\Espacios $espacios, \Rmo\Espacios $_espacios) {
+        Rmo\Piezas::parte_5($_char, $_char_, $char, $etiquetas, $espacios, $_espacios);
     }
 }
 
